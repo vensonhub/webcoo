@@ -1,0 +1,27 @@
+{
+  "apps":[
+    {
+      "name":"webpm",
+      "script":"app.js",
+      "env":{
+        "COMMON_VARIABLE":"true"
+      },
+      "env_production":{
+        "NODE_ENV":"production"
+      }
+    }
+  ],
+  "deploy":{
+    "production":{
+      "user":"mooc",
+      "host":["47.92.124.188"],
+      "ref":"origin/master",
+      "repo":"git@github.com:vensonhub/webcoo.git",
+      "path":"~/www/website/production",
+      "ssh_options": "StrictHostKeyChecking=no",
+      "env"  : {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
