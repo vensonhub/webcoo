@@ -3,6 +3,7 @@
     {
       "name":"webpm",
       "script":"app.js",
+      "cwd" : "/home/mooc/www/website/production/current",
       "env":{
         "COMMON_VARIABLE":"true"
       },
