@@ -2,7 +2,7 @@
   "apps":[
     {
       "name":"webpm",
-      "script":"/home/mooc/www/website/production/mock/server.js",
+      "script":"../mock/server.js",
       "env":{
         "COMMON_VARIABLE":"true"
       },
