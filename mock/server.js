@@ -12,7 +12,7 @@ const detailInfo = require('./detail/info.js');
 // 详情页 - 用户评论
 const detailComment = require('./detail/comment.js');
 // 订单列表
-const orderList = require('./orderlist/orderList.js');
+const orderList = require('./orderlist/list.js');
 
 router.get('/',function *(next){
   this.body = 'hello koa';
