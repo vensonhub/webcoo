@@ -136,4 +136,6 @@ router.post('/api/submitComment', function *(next) {
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-app.listen(3000);
+app.listen(3000,function(){
+  console.log('server is running');
+});
