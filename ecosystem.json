@@ -2,7 +2,8 @@
   "apps":[
     {
       "name":"webpm",
-      "script":"server/app.js",
+      "cwd": "~/www/website/production/current/server",
+      "script":"./app.js",
       "env":{
         "COMMON_VARIABLE":"true"
       },
