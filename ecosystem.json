@@ -2,7 +2,8 @@
   "apps":[
     {
       "name":"webpm",
-      "script":"mock/server.js",
+      "script":"./mock/server.js",
+      "cwd":"./",
       "env":{
         "COMMON_VARIABLE":"true"
       },
