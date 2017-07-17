@@ -1,10 +1,8 @@
 {
   "apps":[
     {
-      "name":"webpm2",
-      "script":"server/app.js",
-      "error_file":"./logs/app-err.log",
-      "out_file":"./logs/app-out.log",
+      "name":"webpm",
+      "script":"mock/server.js",
       "env":{
         "COMMON_VARIABLE":"true"
       },
